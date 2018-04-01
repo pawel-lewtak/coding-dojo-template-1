@@ -1,6 +1,9 @@
 {
   "name": "coding-dojo-template",
   "version": "1.0.0",
+  "engines": { 
+    "node" : ">=8.5.0" 
+  },
   "description": "A boilerplate project for coding dojo in TypeScript language",
   "main": "src/Dojo/index.js",
   "scripts": {
@@ -20,9 +23,8 @@
   "author": "khytsky.vladimir@gmail.com",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^9.6.1",
-    "ava": "^1.0.0-beta.3",
-    "typescript": "^2.8.1"
-  },
-  "dependencies": {}
+    "@types/node": "9.6.1",
+    "ava": "1.0.0-beta.3",
+    "typescript": "2.8.1"
+  }
 }
